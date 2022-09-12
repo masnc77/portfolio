@@ -1,8 +1,7 @@
 import { Row, Col, Modal, Button } from "react-bootstrap";
 import { useState } from "react";
-import seeder from "../seed";
-import "../css/cardproyect.css";
-import { Link } from "react-router-dom";
+import seeder from "../../seed";
+import "./cardproyect.css";
 
 function CardProyect() {
   const [show, setShow] = useState(false);

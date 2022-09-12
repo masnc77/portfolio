@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Saira+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap");
+
+.nav {
+  height: 100px;
+  width: 100%;
+  color: red;
+  background-color: rgb(38, 38, 236);
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: white;
+  font-size: 28px;
+  font-family: "Dancing Script", cursive;
+}
+
+.themes {
+  color: white;
+  font-size: 20px;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.link {
+  margin-right: 2rem;
+}
