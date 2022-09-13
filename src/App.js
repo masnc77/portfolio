@@ -8,15 +8,17 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { Background } from "./components/Background/Background";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Background />
         <MainNavbar />
 
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route exact path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
