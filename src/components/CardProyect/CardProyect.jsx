@@ -24,7 +24,7 @@ function CardProyect() {
                 <div>
                   <h1 id="title">{item.name}</h1>
                   <img src={item.img} id="img" alt="#"></img>
-                  <Button
+                  <button
                     variant="primary"
                     onClick={() => {
                       handleShow();
@@ -38,7 +38,7 @@ function CardProyect() {
                     className="button"
                   >
                     More
-                  </Button>
+                  </button>
                 </div>
                 <Modal
                   show={show}
@@ -51,24 +51,26 @@ function CardProyect() {
                     <Modal.Title>{modal.name}</Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <Row>
-                      <Col md="6">
+                    <Row style={{ marginTop: "0" }}>
+                      <Col md="6" id="image">
                         {" "}
                         <img src={modal.img} id="img" alt="#"></img>
                       </Col>
-                      <Col md="6">{modal.description}</Col>
+                      <Col md="6" id="description">
+                        {modal.description}
+                      </Col>
                     </Row>
                   </Modal.Body>
                   <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
+                    {/* <Button variant="secondary" onClick={handleClose}>
                       Close
-                    </Button>
+                    </Button> */}
 
-                    <Button variant="primary" onClick={handleClose}>
+                    <button onClick={handleClose} id="modalWebsiteButton">
                       <a href={modal.link} target="_blank" rel="noreferrer">
-                        Go Website
+                        Website
                       </a>
-                    </Button>
+                    </button>
                   </Modal.Footer>
                 </Modal>
               </Col>

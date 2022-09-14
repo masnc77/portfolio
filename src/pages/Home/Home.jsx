@@ -5,8 +5,7 @@ import "./home.css";
 
 function Home() {
   return (
-    <div className="container">
-      <h1 id="title">Proyect List</h1>
+    <div className="container home">
       <CardProyect />
     </div>
   );
