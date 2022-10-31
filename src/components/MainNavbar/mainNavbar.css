@@ -37,8 +37,13 @@
 }
 
 .link {
+  font-family: "Dancing Script", cursive;
   margin-right: 1.5rem;
   color: white;
   text-decoration: none !important;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: black;
 }

@@ -24,13 +24,13 @@ function Contact() {
           <Col md="6">
             <div>
               <label>Name</label>
-              <input type="text" placeholder="For example: John" />
+              <input type="text" placeholder="For example: Maria" />
             </div>
           </Col>
           <Col md="6">
             <div>
               <label>Last Name</label>
-              <input type="text" placeholder="For example: Pérez" />
+              <input type="text" placeholder="For example: Noel" />
             </div>
           </Col>
         </Row>

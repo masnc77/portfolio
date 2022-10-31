@@ -20,7 +20,8 @@ const MainNavbar = () => {
     <div className="box">
       <Navbar className="navbar">
         <Container>
-          <Navbar.Brand className="name">Marcos Sierra</Navbar.Brand>
+          {/*           <Navbar.Brand className="name">Marcos Sierra</Navbar.Brand>
+           */}{" "}
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <div className="links ">
